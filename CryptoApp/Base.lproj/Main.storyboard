@@ -27,21 +27,33 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="113"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgB-Yq-Ir1">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgB-Yq-Ir1">
                                                     <rect key="frame" x="20" y="11" width="378" height="24"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="24" id="Osg-Yx-3Nt"/>
+                                                        <constraint firstAttribute="width" constant="378" id="ip2-6f-2eb"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCW-Td-Qtn">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCW-Td-Qtn">
                                                     <rect key="frame" x="18" y="58" width="378" height="29"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="378" id="8Gl-Ee-aed"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="tgB-Yq-Ir1" firstAttribute="top" secondItem="4yo-Pk-Ygg" secondAttribute="topMargin" id="BOx-Ge-p4v"/>
+                                                <constraint firstItem="sCW-Td-Qtn" firstAttribute="centerX" secondItem="4yo-Pk-Ygg" secondAttribute="centerX" id="F3H-aA-QfM"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="sCW-Td-Qtn" secondAttribute="bottom" constant="15" id="IYL-Sq-U99"/>
+                                                <constraint firstItem="sCW-Td-Qtn" firstAttribute="top" secondItem="tgB-Yq-Ir1" secondAttribute="bottom" constant="23" id="doE-UR-Gc1"/>
+                                                <constraint firstItem="tgB-Yq-Ir1" firstAttribute="leading" secondItem="4yo-Pk-Ygg" secondAttribute="leadingMargin" id="lJY-DG-eEX"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="currencyText" destination="tgB-Yq-Ir1" id="qGl-e3-nGM"/>
@@ -54,10 +66,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hRl-cB-lZB" secondAttribute="bottom" id="33P-Fc-bP0"/>
-                            <constraint firstItem="hRl-cB-lZB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Fhv-aR-AcB"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hRl-cB-lZB" secondAttribute="trailing" id="HaC-Zs-Ofo"/>
-                            <constraint firstItem="hRl-cB-lZB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XF7-wg-Tcn"/>
+                            <constraint firstItem="hRl-cB-lZB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4wq-cC-8D8"/>
+                            <constraint firstItem="hRl-cB-lZB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Hyz-cy-TR4"/>
+                            <constraint firstItem="hRl-cB-lZB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="X3m-5q-lLZ"/>
+                            <constraint firstItem="hRl-cB-lZB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oNy-bn-t1p"/>
                         </constraints>
                     </view>
                     <connections>
