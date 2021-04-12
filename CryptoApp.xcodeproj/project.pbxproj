@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		114F10AD262354860035371B /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F10AC262354860035371B /* CryptoCurrency.swift */; };
+		114F10B1262386020035371B /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F10B0262386020035371B /* Webservice.swift */; };
 		119EEC3C26234BDA0009357E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119EEC3B26234BDA0009357E /* AppDelegate.swift */; };
 		119EEC3E26234BDA0009357E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119EEC3D26234BDA0009357E /* SceneDelegate.swift */; };
 		119EEC4026234BDA0009357E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119EEC3F26234BDA0009357E /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		114F10AC262354860035371B /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
+		114F10B0262386020035371B /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		119EEC3826234BDA0009357E /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		119EEC3B26234BDA0009357E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		119EEC3D26234BDA0009357E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		114F10AB262354240035371B /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				114F10B0262386020035371B /* Webservice.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			files = (
 				119EEC5126234F1B0009357E /* CryptoTableViewCell.swift in Sources */,
 				119EEC4026234BDA0009357E /* ViewController.swift in Sources */,
+				114F10B1262386020035371B /* Webservice.swift in Sources */,
 				119EEC3C26234BDA0009357E /* AppDelegate.swift in Sources */,
 				114F10AD262354860035371B /* CryptoCurrency.swift in Sources */,
 				119EEC3E26234BDA0009357E /* SceneDelegate.swift in Sources */,
