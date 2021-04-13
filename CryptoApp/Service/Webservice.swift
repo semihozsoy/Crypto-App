@@ -23,11 +23,12 @@ class Webservice {
             else if let data = data {
                 
                let crytoList = try? JSONDecoder().decode([CryptoCurrency].self, from: data)
-                
-                completion(crytoList)
-                
+
                 if let cryptoList = crytoList {
                     completion(cryptoList)
+                    for crypto in cryptoList {
+                   
+                    }
                 }
             }
         }.resume() // işlemi başlatmamıza yarıyan 
