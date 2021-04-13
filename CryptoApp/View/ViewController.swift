@@ -53,7 +53,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         cell.priceText.text = cryptoViewModel.price
         cell.currencyText.text  = cryptoViewModel.name
-        return cell 
+        cell.backgroundColor = UIColor.cyan
+        return cell
+        
+        
     }
     
 

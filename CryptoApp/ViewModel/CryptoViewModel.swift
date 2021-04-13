@@ -21,10 +21,29 @@ struct CryptoListViewModel {
         let crypto = self.cryptoCurrencyList[index]
         return CryptoViewModel(cryptoCurrency: crypto)
     }
-    
-    
+ 
     
 }
+
+/*
+
+extension CryptoListViewModel {
+    
+ // Data manipulation'ı extension key i ile gerçekleştirebileceğimizi görmüş olduk.
+    
+    func numbersOfRowsInSection()->Int{
+        
+        return self.cryptoCurrencyList.count
+    }
+    
+    func cryptoAtIndex(index:Int)->CryptoViewModel {
+        let crypto = self.cryptoCurrencyList[index]
+        return CryptoViewModel(cryptoCurrency: crypto)
+    }
+}
+ 
+ */
+
 
 struct CryptoViewModel {
     
@@ -39,3 +58,16 @@ struct CryptoViewModel {
     }
 }
 
+/*
+
+extension CryptoViewModel {
+    var name: String {
+        return self.cryptoCurrency.currency ?? ""
+    }
+    
+    var price: String {
+        return self.cryptoCurrency.price ?? ""
+    }
+}
+ 
+ */
